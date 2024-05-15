@@ -321,7 +321,7 @@
     let currentURL = window.location.href;
     let format = localStorage.getItem("format")
     let resolution = document.getElementById("ytdownloadDivRSelect").value
-    let url = "el-ytd:" + "&" + format + "&" + resolution + "&" + currentURL;
+    let url = "el-ytd:" + "$" + format + "$" + resolution + "$" + currentURL;
     window.location.href = url;
   }  
 
